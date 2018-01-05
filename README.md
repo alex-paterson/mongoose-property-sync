@@ -74,8 +74,8 @@ sync(
 
 **modelToUpdate**: String which is passed to `mongoose.model` to get model to update.
 
-**keyMap**: Object for which key/value pair is used to find objects in the target collection to update.
+**keyMap**: Object with which each key/value pair is used to find objects in the target collection to update.
 
-**propertyMap**: Object for which key/value pair is used to update properties in the target collection.
+**propertyMap**: Object with which each key/value pair is used to update properties in the target collection.
 
 **errorHandler**: Function called if update fails.
